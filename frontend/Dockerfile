@@ -4,6 +4,6 @@ WORKDIR /frontend
 
 COPY . .
 
-RUN yarn install
+RUN yarn --registry=https://registry.npm.taobao.org install
  
 CMD ["yarn", "start"]
