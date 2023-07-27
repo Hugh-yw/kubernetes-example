@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: react-frontend
-        image: lyzhang1999/frontend:latest
-        imagePullPolicy: Always
+        image: ccr.ccs.tencentyun.com/app-public/frontend:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
         resources:
@@ -25,8 +25,8 @@ spec:
             memory: "128Mi"
             cpu: "128m"
           limits:
-            memory: "256Mi"
-            cpu: "256m"
+            memory: "1000Mi"
+            cpu: "500m"
 ---
 apiVersion: v1
 kind: Service

@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: flask-backend
-        image: lyzhang1999/backend:latest
-        imagePullPolicy: Always
+        image: ccr.ccs.tencentyun.com/app-public/backend:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
         env:
@@ -32,8 +32,8 @@ spec:
             memory: "128Mi"
             cpu: "128m"
           limits:
-            memory: "256Mi"
-            cpu: "256m"
+            memory: "1000Mi"
+            cpu: "500m"
         readinessProbe: 
           httpGet:
             path: /healthy
