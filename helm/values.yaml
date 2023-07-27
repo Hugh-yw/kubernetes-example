@@ -1,11 +1,11 @@
 frontend:
   image: ccr.ccs.tencentyun.com/app-public/frontend
-  tag: 'latest'
+  tag: b4681d4
   autoscaling:
     averageUtilization: 90
 backend:
   image: ccr.ccs.tencentyun.com/app-public/backend
-  tag: 'latest'
+  tag: b4681d4
   autoscaling:
     averageUtilization: 90
 database:
