@@ -28,7 +28,8 @@ spec:
     spec:
       containers:
       - name: postgres
-        image: postgres
+        image: ccr.ccs.tencentyun.com/app-public/postgres:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5432
         volumeMounts:

@@ -1,11 +1,11 @@
 frontend:
-  image: lyzhang1999/frontend
+  image: ccr.ccs.tencentyun.com/app-public/frontend
   tag: latest
   autoscaling:
     averageUtilization: 50
 
 backend:
-  image: lyzhang1999/backend
+  image: ccr.ccs.tencentyun.com/app-public/backend
   tag: latest
   autoscaling:
     averageUtilization: 50
