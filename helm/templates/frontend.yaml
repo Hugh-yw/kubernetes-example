@@ -6,7 +6,7 @@ metadata:
     app: frontend
 spec:
   # do not include replicas in the manifests if you want replicas to be controlled by HPA
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: frontend
