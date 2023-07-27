@@ -1,0 +1,14 @@
+helm:	
+  parameters:	
+  - name: frontend.image	
+    value: ccr.ccs.tencentyun.com/app-public/frontend	
+    forcestring: true	
+  - name: frontend.tag	
+    value: "2682590"	
+    forcestring: true	
+  - name: backend.image	
+    value: ccr.ccs.tencentyun.com/app-public/backend
+    forcestring: true	
+  - name: backend.tag	
+    value: "2682590"	
+    forcestring: true
