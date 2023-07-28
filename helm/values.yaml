@@ -1,10 +1,10 @@
 frontend:
-  image: ccr.ccs.tencentyun.com/app-public/frontend
+  image: chengyinwu/frontend
   tag: ddb33a9
   autoscaling:
     averageUtilization: 90
 backend:
-  image: ccr.ccs.tencentyun.com/app-public/backend
+  image: chengyinwu/backend
   tag: ddb33a9
   autoscaling:
     averageUtilization: 90
