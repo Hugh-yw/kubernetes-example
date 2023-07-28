@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hi! I'm from GitOps workflow v2.0 {process.env.REACT_APP_NAMESPACES} namespaces!
+        Hi! I'm from GitOps workflow v3.0 {process.env.REACT_APP_NAMESPACES} namespaces!
       </header>
       <div className="Grid">
         <div className="Grid-Item">
