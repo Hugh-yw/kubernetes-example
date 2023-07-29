@@ -14,7 +14,7 @@ db_password = os.environ.get('DATABASE_PASSWORD')
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://"+ db_username +":"+ db_password +"@" + \
     db_uri+"/postgres"
 
-db = SQLAlchemy(app)
+db = SQLAlchemy()
 db.init_app(app)
 
 
