@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: "https://github.com/lyzhang1999/kubernetes-example.git"
+      repoURL: "https://github.com/Hugh-yw/kubernetes-example.git"
       revision: HEAD
       files:
       - path: "helm-env/env/*/values.yaml"
@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: "https://github.com/lyzhang1999/kubernetes-example.git"
+        repoURL: "https://github.com/Hugh-yw/kubernetes-example.git"
         targetRevision: HEAD
         path: "helm-env"
         helm:
