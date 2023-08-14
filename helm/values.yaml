@@ -1,11 +1,11 @@
 frontend:
   image: chengyinwu/frontend
-  tag: 6c1905b
+  tag: 4e64f82
   autoscaling:
     averageUtilization: 90
 backend:
   image: chengyinwu/backend
-  tag: 6c1905b
+  tag: 4e64f82
   autoscaling:
     averageUtilization: 90
 database:
