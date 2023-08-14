@@ -6,7 +6,7 @@ metadata:
 spec:
    project: default
    source:
-     repoURL: https://github.com/lyzhang1999/kubernetes-example.git
+     repoURL: https://github.com/Hugh-yw/kubernetes-example.git
      targetRevision: HEAD
      path: sealed-secret/manifest
    destination:
